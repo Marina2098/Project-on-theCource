@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box ;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display:block;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+}
+.container{
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right:auto;
+margin-left: auto;
+}
+.top-start{
+    padding:20px;
+    text-align: right;
+    background-color:#212529;
+}
+.nav-block{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    
+    
+}
+.list-container{
+    display:inline;
+    padding-right: 15px;
+    
+} 
+    
+.link-num{
+    display: inline-block;
+    padding: 0 20px;
+    border-right: 1px solid #e5e5e5;
+    color: #bcbcbd;
+    cursor: pointer;
+   list-style: none;
+    text-decoration: none;
+}
+.link-num:hover{
+    color: #bcbcbd;
+text-decoration: underline;
+}
+.tel-num{
+    border-right: none;
+    color:#fd7e14;
+}
+.nav-bar, .logo-type{
+    display:inline-block;
+}
+.selection, .nav-bar, .link-email{
+float: right;
+text-decoration: none;
+cursor:pointer;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+color: #222;
+text-transform: uppercase;
+transition: .2s ease;
+}
+
+.link-email{
+    
+    text-align: center;
+    font-size:13px;
+    padding:15px 30px;
+    margin-left: 100px;
+    border:none;
+    border-radius:30px;
+    background:#fd7e14;
+    color: #fff;
+    
+}
+.link-email:hover{
+background:#ee7171;
+}
+ .navigate{
+    padding: 20px 15px;
+    margin:0 112px;
+ }
+ .selection{
+    padding:15px 10px;
+ }
+ .selection:hover{
+    color: #fd7e14;
+ }
+ .page-title{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 100px;
+    font-weight:bold;
+ }
+ @media (min-width: 992px){
+ .navbar-expant-lg
+  .navbar-collapse {
+display:inline;
+-ms-flex-preferred-size: auto;
+flex-basis: auto;
+}
+}
+.section{
+padding:50px 0;
+margin:0 auto;
+}
+@media (min-width: 768px) {
+.container{
+max-width:720px ;
+}
+}
+.slick-slide{
+    float: right;
+    
+}
+.bg-primary{
+    background-color:#ff951e !important;
+}
+.by-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
